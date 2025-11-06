@@ -13,8 +13,9 @@ public class SupremeBoohbah {
     public void command(String text){
         System.out.println(text);
     }
-/*    @Override
-    public String toString(String text){
-       return text;
-    }*/
+   @Override
+    public String toString(){
+       return "example big bruh";
+    }
+
 }
