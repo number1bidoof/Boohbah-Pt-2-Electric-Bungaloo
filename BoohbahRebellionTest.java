@@ -1,6 +1,6 @@
 public class BoohbahRebellionTest {
     public static void main(String[] args) {
-        // begging of Chatgpt code, I didnt know how to do the array
+        // begging of Chatgpt code, I didn't know how to do the array
         SupremeBoohbah[] test = new SupremeBoohbah[5];
         Humbah test2 = new Humbah();
         test2.command();
