@@ -2,8 +2,8 @@ public class SupremeBoohbah {
     protected String name;
 
     SupremeBoohbah(){
-        name = "Zing Zing Zingbah";
-        System.out.println("ZingZingZingbah, the supreme Boohbah leader has awaken!!! ");
+        this.name = "Zing Zing Zingbah";
+        System.out.println(name + ",the supreme Boohbah leader has awaken!!! ");
 
     }
     public void command(){
@@ -11,11 +11,11 @@ public class SupremeBoohbah {
     }
 
     public void command(String text){
-        System.out.println(text);
+        System.out.println(name + text);
     }
    @Override
     public String toString(){
-       return "example big bruh";
+       return "This is an example :3 ";
     }
 
 }
